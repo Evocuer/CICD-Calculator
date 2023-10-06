@@ -1,4 +1,4 @@
 # Directorios a ignorar
 
-*/.idea
-*/target
+.idea*
+target*
