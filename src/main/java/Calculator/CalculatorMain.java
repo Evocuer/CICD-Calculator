@@ -14,6 +14,9 @@ public class CalculatorMain {
 
         Operator o = os.createOperator(numA, numB);
 
+        System.out.println("\nPrimer numero es: " + o.getNumberA());
+        System.out.println("Segundo numero es: " + o.getNumberB());
+        System.out.println("-----");
         System.out.println("la suma es: " + os.sumOperators(o));
         System.out.println("la resta es: " + os.minusOperators(o));
         System.out.println("la Division es: " + os.multiplicationOperators(o));
@@ -23,6 +26,8 @@ public class CalculatorMain {
         } catch (ArithmeticException e) {
             System.out.println("Error Multiplicacion x cero");
         }
+        System.out.println("-----");
+        System.out.println("Calculo Finalizado");
 
     }
 
